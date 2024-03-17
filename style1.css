@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 98vw;
+    height: 89px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #f5f5f58a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    visibility: hidden;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+header a:hover{
+    background-color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li, .nav1 *{
+    margin: 9px;
+}
+i{
+    cursor: pointer;
+}
+.first-main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-left{
+    font-size: 37.43px;
+    margin: 30px;
+}
+.text-left p{
+    font-size: medium;
+    margin: 0px;
+}
+.text-left h1{
+    margin: 0px;
+}
+.img-right{
+    position: relative;
+    top: 45px;
+}
+.img-right img{
+    width: 623.01px;
+    object-fit: contain;
+    margin: 0px;
+    position: relative;
+    bottom: 231.46px;
+    right: 20px;
+    transform: rotate(-5.88deg) scalex(-1);
+}
+.img-right h1{
+    width: 600px;
+    font-size: 88px;
+    color: rgba(255, 255, 255, 0.089);
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: rgb(167, 167, 167);
+}
+.text-left button{
+    width: 12vw;
+    padding: 11.8px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.second-main-container{
+    position: relative;
+    bottom: 17vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.slice{
+    width: 440px;
+    height: 440px;
+    border: 1.3px rgb(75, 75, 75) solid;
+    border-radius: 4px;
+    text-align: center;
+    margin: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slice h1{
+    font-size: 43px;
+    font-weight: 777;
+    letter-spacing: 12px;
+}
+.slice3 h1{
+    position: relative;
+    bottom: 4.5vw;
+}
+footer{
+    width: 98vw;
+    height: 12vh;
+    font-weight: 666;
+    background-color: #f5f5f58a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    font-family: "Font Awesome 5 Brands"; 
+}
+footer .li1:before{
+    content: '\f16d';
+}
+footer .li2:before{
+    content: '\e07b';
+}
+footer .li3:before{
+    content: '\f099';
+}
+footer .li4:before{
+    content: '\f09b';
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        visibility: hidden;
+    }
+    .nav1{
+        visibility: hidden;
+    }
+    .menu{
+        visibility: visible;
+    }
+    .first-main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-left h1{
+        font-size: 80px;
+    }
+    .second-main-container{
+        flex-direction: column;
+    }
+}
