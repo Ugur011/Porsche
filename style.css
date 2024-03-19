@@ -82,9 +82,54 @@ i{
     background-color: #ffff;
     cursor: pointer;
 }
-.second-main-container{
+.first-main-slice{
+    display: flex;
     position: relative;
-    bottom: 17vh;
+    justify-content: space-evenly;
+    bottom: 90px;
+    width: 98vw;
+    height: 100vh;
+    background: rgb(184,184,184);
+background: linear-gradient(180deg, rgba(184,184,184,0) 0%, rgba(144,144,144,0.6362920168067228) 8%, rgba(99,99,99,0.6839110644257703) 19%, rgba(102,102,102,0.8379726890756303) 35%, rgba(94,94,94,0.908000700280112) 48%, rgba(78,78,78,1) 69%);
+}
+.first-main-slice h1{
+    font-size: 187px;
+    line-height: 1.1;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 2.7px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.first-main-slice img{
+    width: 723.01px;
+    height: 340px;
+    object-fit: cover;
+    margin: 0px;
+    position: relative;
+    bottom:380.46px;
+    left: 18px;
+    transform: rotate(-15.88deg) scaleX(-1);
+}
+.left-scile-container{
+    width: 45vw;
+}
+.first-main-slice button{
+    width: 151px;
+    position: relative;
+    bottom: 300px;
+    left: 40px;
+    border: 1.4px rgb(167, 167, 167) solid;
+    border-radius: 6px;
+    background: transparent;
+    color: snow;
+    font-size: 15px;
+    letter-spacing: 2.3px;
+    padding: 10px;
+}
+.right-slice-container{
+    width: 50vw;
+}
+.second-main-container{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
