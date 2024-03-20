@@ -114,13 +114,13 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     width: 55vw;
     position: relative;
     top: 150px;
-    left: 120px;
+    right: -120px;
     animation: mymove 2.3s;
   animation-fill-mode: forwards;
 }
 .medium-slice-container *{animation-timing-function: ease;}
 @keyframes mymove{
-    from{left: 0px;}
+    from{right: 0px;}
 }
 .first-main-slice button{
     width: 11.8vw;
