@@ -11,8 +11,8 @@ UGUR YUSIFZADE  */
     scroll-behavior: smooth;
 }
 header{
-    width: 98vw;
-    height: 89px;
+    width: 98.7239vw;
+    height: 14.082278vh;
     font-size: 1.2rem;
     font-weight: 500;
     background-color: #f5f5f58a;
@@ -62,7 +62,7 @@ i{
     top: 45px;
 }
 .img-right img{
-    width: 623.01px;
+    width: 48.6vw;
     object-fit: contain;
     margin: 0px;
     position: relative;
@@ -71,7 +71,7 @@ i{
     transform: rotate(-5.88deg) scalex(-1);
 }
 .img-right h1{
-    width: 600px;
+    width: 46.8vw;
     font-size: 88px;
     color: rgba(255, 255, 255, 0.089);
     -webkit-text-stroke-width: 1.3px;
@@ -88,7 +88,7 @@ i{
 .first-main-slice{
     position: relative;
     bottom: 90px;
-    width: 98vw;
+    width: 98.7239vw;
     height: 120vh;
     background: rgb(37,34,117);
 background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.222) 13%, rgba(37,34,117,0.48503151260504207) 25%, rgba(7,2,73,1) 75%);
@@ -101,8 +101,8 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .first-main-slice img{
-    width: 723.01px;
-    height: 340px;
+    width: 55vw;
+    height: 53.79vh;
     object-fit: cover;
     margin: 0px;
     position: relative;
@@ -123,7 +123,7 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     from{left: 0px;}
 }
 .first-main-slice button{
-    width: 151px;
+    width: 11.8vw;
     position: relative;
     bottom: 300px;
     left: 40px;
@@ -141,8 +141,8 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     justify-content: space-around;
 }
 .slice{
-    width: 440px;
-    height: 440px;
+    width: 34.375vw;
+    height: 69.62vh;
     border: 1.3px rgb(75, 75, 75) solid;
     border-radius: 4px;
     text-align: center;
@@ -177,11 +177,11 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     transition: .2s;
 }
 .up:hover{
-    background-color: #d2d2d2c2;
+    background-color: #d2d2d274;
     font-size: 15.5px;
 }
 footer{
-    width: 98vw;
+    width: 98.7239vw;
     height: 12vh;
     font-weight: 666;
     background-color: #f5f5f58a;
@@ -205,6 +205,12 @@ footer .li4:before{
     content: '\f09b';
 }
 
+::-webkit-scrollbar{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(171, 171, 171, 0.404);
+}
 @media only screen and (max-width: 600px) {
     nav{
         visibility: hidden;
@@ -215,14 +221,62 @@ footer .li4:before{
     .menu{
         visibility: visible;
     }
+    header{
+        justify-content: space-between;
+    }
     .first-main-container{
         flex-direction: column;
-        justify-content: center;
+    }
+    .first-main-container {
+    
+    }
+    .text-left{
+        width: 399vw;
     }
     .text-left h1{
-        font-size: 80px;
+        font-size: 130px;
+    }
+    .text-left button{
+        width: 520px;
+    }
+    .img-right{
+        width: 399vw;
+        height: 300px;
+    }
+    .img-right h1{
+        width: 399vw;
+        font-size: 130px;
+    }
+    .img-right img{
+        width: 560px;
+        position: absolute;
+        bottom: -20px;
+        left: 260px;
+        transform: rotate(-13deg) scaleX(-1);
+    }
+    .first-main-slice{
+        top: 150px;
+        width: 398vw;
+    }
+    .first-main-slice button{
+        display: none;
+    }
+    .medium-slice-container img{
+        width: 777px;
+        object-fit: contain;
     }
     .second-main-container{
+        justify-content: center;
         flex-direction: column;
+        position: relative;
+        left: 150px;
+        top: 200px;
+    }
+    .slice{
+        width: 660px;
+    }
+    footer{
+        top: 457px;
+        bottom: 0;
     }
 }

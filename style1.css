@@ -115,3 +115,7 @@ footer .li3:before{
 footer .li4:before{
     content: '\f09b';
 }
+
+@media only screen and (max-width: 600px) {
+    
+}
