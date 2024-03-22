@@ -114,13 +114,14 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     width: 55vw;
     position: relative;
     top: 150px;
-    right: -120px;
+    left: 120px;
     animation: mymove 2.3s;
   animation-fill-mode: forwards;
 }
 .medium-slice-container *{animation-timing-function: ease;}
 @keyframes mymove{
-    from{right: 0px;}
+    from{left: 470px;}
+    to{left: 80px;}
 }
 .first-main-slice button{
     width: 11.8vw;
@@ -207,6 +208,9 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     transform: rotate(-8.88deg) scalex(-1);
 }
 .up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     width: 55px;
     height: 55px;
@@ -225,7 +229,7 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
 }
 .up:hover{
     background-color: #d2d2d274;
-    font-size: 15.5px;
+    font-size: 17.5px;
 }
 footer{
     width: 98.7239vw;
@@ -237,6 +241,7 @@ footer{
     align-items: center;
     position: relative;
     bottom: 0;
+    top: 100px;
     font-family: "Font Awesome 5 Brands"; 
 }
 footer .li1:before{
