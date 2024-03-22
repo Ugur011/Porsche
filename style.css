@@ -138,7 +138,7 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
 .second-main-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .slice{
     width: 34.375vw;
@@ -165,10 +165,15 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     display: flex;
     position: relative;
     top: 55px;
+    left: 0;
     width: 98.7239vw;
-    height: 110vh;
+    height: 120vh;
     background: rgb(117,34,34);
     background: linear-gradient(0deg, rgba(117,34,34,0) 0%, rgba(113,31,31,0.6587009803921569) 30%, rgba(83,9,9,1) 62%, rgba(73,2,2,1) 70%);
+}
+.third-medium-container{
+    position: relative;
+    top: 50px;
 }
 .third-medium-container h1{
     font-size: 187px;
@@ -176,6 +181,21 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.third-medium-container button{
+    position: relative;
+    bottom: 350px;
+    right: 666px;
+    width: 15.8vw;
+    border: 1.4px rgb(255, 255, 255) solid;
+    border-radius: 6px;
+    background: transparent;
+    font-size: 15px;
+    letter-spacing: 2.3px;
+    padding: 10px;
+}
+.third-medium-container button a{
+    color: snow;
 }
 .third-main-container img{
     width: 58.6vw;
@@ -188,6 +208,8 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
 }
 .up{
     position: fixed;
+    width: 55px;
+    height: 55px;
     bottom: 15px;
     right: 15px;
     z-index: 9999;
@@ -256,52 +278,61 @@ footer .li4:before{
     
     }
     .text-left{
-        width: 399vw;
+        width: 500px;
     }
     .text-left h1{
-        font-size: 130px;
+        font-size: 80px;
     }
     .text-left button{
-        width: 520px;
+        width: 200px;
     }
     .img-right{
-        width: 399vw;
-        height: 300px;
+        width: 500px;
+        height: 440px;
     }
     .img-right h1{
-        width: 399vw;
-        font-size: 130px;
+        font-size: 70px;
     }
     .img-right img{
-        width: 560px;
+        width: 440px;
         position: absolute;
-        bottom: -20px;
-        left: 260px;
-        transform: rotate(-13deg) scaleX(-1);
+        top: 200px;
+        right: 100px;
+        transform: rotate(-47deg) scaleX(-1);
     }
     .first-main-slice{
-        top: 150px;
-        width: 398vw;
+        top: 350px;
+        width: 500px;
     }
     .first-main-slice button{
         display: none;
     }
     .medium-slice-container img{
-        width: 777px;
+        width: 440px;
         object-fit: contain;
     }
     .second-main-container{
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         position: relative;
-        left: 150px;
-        top: 200px;
+        top: 373px;
     }
     .slice{
-        width: 660px;
+        width: 444px;
+    }
+    .third-main-container{
+        width: 500px;
+        top: 500px;
+    }
+    .third-medium-container img{
+        width: 550px;
+        position: absolute;
+        bottom: 330px;
+        left: 0px;
     }
     footer{
-        top: 457px;
+        top: 357px;
         bottom: 0;
     }
 }
