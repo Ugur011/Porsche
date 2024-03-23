@@ -104,18 +104,32 @@ footer{
     font-family: "Font Awesome 5 Brands"; 
 }
 footer .li1:before{
-    content: '\f16d';
+    content: "\F437";
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li2:before{
-    content: '\e07b';
+    content: '\F6CC';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li3:before{
-    content: '\f099';
+    content: '\F8DB';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li4:before{
-    content: '\f09b';
+    content: '\F3ED';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 
+::-webkit-scrollbar{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(171, 171, 171, 0.404);
+}
 @media only screen and (max-width: 600px) {
     
 }

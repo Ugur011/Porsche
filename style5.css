@@ -105,3 +105,42 @@ svg{
     left: 666px;
     top: 882px;
 }
+footer{
+    width: 98.7239vw;
+    height: 12vh;
+    font-weight: 666;
+    background-color: #f5f5f58a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    top: 400px; 
+}
+footer .li1:before{
+    content: "\F437";
+   font-family: "Bootstrap-icons";
+   margin: 8px;
+}
+footer .li2:before{
+    content: '\F6CC';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
+}
+footer .li3:before{
+    content: '\F8DB';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
+}
+footer .li4:before{
+    content: '\F3ED';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
+}
+
+::-webkit-scrollbar{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(171, 171, 171, 0.404);
+}

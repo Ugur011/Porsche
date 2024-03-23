@@ -207,6 +207,54 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     left: 420px;
     transform: rotate(-8.88deg) scalex(-1);
 }
+.fourth-main-container{
+    width: 98.7239vw;
+    position: relative;
+    top: 80px;
+}
+.fourth-main-container h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.info-inv{
+    width: 98.7239vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.info-inv img{
+    width: 45vw;
+}
+.info-inv p{
+    width: 35vw;
+    font-size: larger;
+}
+.pics-inv img{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.fifth-main-container{
+    position: relative;
+    top: 333px;
+    width: 98.7239vw;
+    height: 100vh;
+    background: rgb(95,0,228);
+background: linear-gradient(270deg, rgba(95,0,228,0) 0%, rgba(79,0,190,0.6587009803921569) 30%, rgba(44,0,97,0.9051995798319328) 62%, rgba(55,0,93,1) 100%);
+}
+.fifth-main-container img{
+    position: relative;
+    left: 180px;
+    width: 70vw;
+    transform: scaleX(-1);
+}
+.fifth-main-container h1{
+    font-size: 85px;
+    line-height: 1.1;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
 .up{
     display: flex;
     justify-content: center;
@@ -241,20 +289,27 @@ footer{
     align-items: center;
     position: relative;
     bottom: 0;
-    top: 100px;
-    font-family: "Font Awesome 5 Brands"; 
+    top: 400px; 
 }
 footer .li1:before{
-    content: '\f16d';
+    content: "\F437";
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li2:before{
-    content: '\e07b';
+    content: '\F6CC';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li3:before{
-    content: '\f099';
+    content: '\F8DB';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 footer .li4:before{
-    content: '\f09b';
+    content: '\F3ED';
+   font-family: "Bootstrap-icons";
+   margin: 8px;
 }
 
 ::-webkit-scrollbar{
