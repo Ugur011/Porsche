@@ -169,8 +169,8 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
     left: 0;
     width: 98.7239vw;
     height: 120vh;
-    background: rgb(117,34,34);
-    background: linear-gradient(0deg, rgba(117,34,34,0) 0%, rgba(113,31,31,0.6587009803921569) 30%, rgba(83,9,9,1) 62%, rgba(73,2,2,1) 70%);
+    background: rgb(255,12,12);
+background: linear-gradient(0deg, rgba(255, 77, 77, 0.129) 0%, rgba(208,0,0,0.6587009803921569) 30%, rgba(144, 0, 0, 0.905) 62%, rgb(90, 0, 0) 100%);
 }
 .third-medium-container{
     position: relative;
@@ -290,6 +290,10 @@ footer{
     position: relative;
     bottom: 0;
     top: 400px; 
+}
+footer li{
+    display: flex;
+    align-items: center;
 }
 footer .li1:before{
     content: "\F437";

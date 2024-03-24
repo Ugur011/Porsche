@@ -117,6 +117,10 @@ footer{
     bottom: 0;
     top: 400px; 
 }
+footer li{
+    display: flex;
+    align-items: center;
+}
 footer .li1:before{
     content: "\F437";
    font-family: "Bootstrap-icons";
