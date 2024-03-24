@@ -232,7 +232,7 @@ background: linear-gradient(180deg, rgba(37,34,117,0) 0%, rgba(26, 23, 113, 0.22
 .pics-inv img{
     position: relative;
     top: 100px;
-    width: 100%;
+    width: 100vw;
 }
 .fifth-main-container{
     position: relative;
@@ -320,79 +320,117 @@ footer .li4:before{
 }
 @media only screen and (max-width: 600px) {
     nav{
-        visibility: hidden;
+        display: none;
     }
     .nav1{
-        visibility: hidden;
+        display: none;
     }
     .menu{
         visibility: visible;
     }
     header{
         justify-content: space-between;
+        width: 100vw;
     }
     .first-main-container{
         flex-direction: column;
     }
-    .first-main-container {
-    
+    main{
+        justify-content: center;
     }
     .text-left{
-        width: 500px;
+        width: 100vw;
     }
     .text-left h1{
-        font-size: 80px;
+        font-size: 88px;
     }
     .text-left button{
-        width: 200px;
+        width: 90vw;
     }
     .img-right{
-        width: 500px;
+        width: 100vw;
         height: 440px;
     }
     .img-right h1{
+        width: 100vw;
         font-size: 70px;
     }
     .img-right img{
-        width: 440px;
+        width: 70vw;
         position: absolute;
-        top: 200px;
-        right: 100px;
-        transform: rotate(-47deg) scaleX(-1);
+        bottom: 200px;
+        transform: rotate(-6deg) scaleX(-1);
     }
     .first-main-slice{
-        top: 350px;
-        width: 500px;
+        top: 20px;
+        width: 100vw;
+        height: 100vw;
     }
     .first-main-slice button{
         display: none;
     }
+    .medium-slice-container h1{
+        font-size: 100px;
+    }
     .medium-slice-container img{
-        width: 440px;
+        width: 60vw;
         object-fit: contain;
+        position: absolute;
+        top: 10px;
     }
     .second-main-container{
         justify-content: center;
         align-items: center;
         flex-direction: column;
         position: relative;
-        top: 373px;
+        top: 120px;
     }
     .slice{
-        width: 444px;
+        width: 75vw;
     }
     .third-main-container{
-        width: 500px;
-        top: 500px;
+        width: 100vw;
+        height: 120vw;
+        top: 180px;
     }
     .third-medium-container img{
-        width: 550px;
+        width: 75vw;
         position: absolute;
-        bottom: 330px;
-        left: 0px;
+        bottom: 400px;
+        left: 144px;
+    }
+    .third-medium-container h1{
+        font-size: 80px;
+    }
+    .fourth-main-container{
+        top: 220px;
+    }
+    .info-inv p{
+        font-size: 14px;
+    }
+    .info-inv img{
+        object-fit: cover;
+    }
+    .pics-inv img{
+        width: 100vw;
+        object-fit: cover;
+    }
+    .fifth-main-container{
+        top: 430px;
+    }
+    .fifth-main-container img{
+        top: 180px;
+        left: 140px;
+        width: 55vw;
+    }
+    .fifth-main-container h1{
+        font-size: 55px;
+        line-height: 1.1;
+        color: rgba(0, 0, 0, 0);
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
     }
     footer{
-        top: 357px;
-        bottom: 0;
+        top: 555px;
     }
 }
