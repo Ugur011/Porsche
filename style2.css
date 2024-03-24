@@ -105,3 +105,34 @@ footer .li4:before{
 ::-webkit-scrollbar-thumb{
     background-color: rgba(171, 171, 171, 0.404);
 }
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    .nav1{
+        display: none;
+    }
+    .menu{
+        visibility: visible;
+    }
+    header{
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .first-main-container{
+        flex-direction: column;
+    }
+    main{
+        justify-content: center;
+    }
+
+
+    .main-container{
+        justify-content: center;
+    }
+    footer{
+        top: 100px;
+        flex-direction: column;
+    }
+}    
