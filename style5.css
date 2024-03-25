@@ -84,6 +84,10 @@ svg{
     position: relative;
     top: 222px;
 }
+.technical-info{
+    position: relative;
+    top: 3px;
+}
 .info{
     padding: 3px;
     width: 10vw;
@@ -169,10 +173,35 @@ footer .li4:before{
     main{
         justify-content: center;
     }
-
-
-
+    .first-header{
+        width: 100vw;
+    }
+    .first-header h1{
+        width: 100vw;
+        font-size: medium;
+    }
+    .info{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    svg{
+        width: 80vw;
+        transform: rotate(0deg);
+        margin: 30px;
+        top: -1px;
+    }
+    .technical-info{
+        width: 100vw;
+        top: 30px;
+    }
+    table{
+        width: 88vw;
+    }
     footer{
         top: 555px;
+        width: 100vw;
     }
 }
